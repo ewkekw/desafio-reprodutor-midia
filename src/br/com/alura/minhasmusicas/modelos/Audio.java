@@ -36,13 +36,11 @@ public class Audio {
     }
 
 
-    public void repoduz() {
-    System.out.printf("Música %s em reprodução", titulo);
+    public void reproduz() {
     totalReproducao++;
     }
 
     public void curte(){
-        System.out.println("A música foi curtida!");
         totalCurtida++;
     }
 
